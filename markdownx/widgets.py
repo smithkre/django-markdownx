@@ -111,5 +111,5 @@ class AdminMarkdownxWidget(MarkdownxWidget, widgets.AdminTextareaWidget):
         }
 
         js = [
-            'markdownx/js/markdownx{}.js'.format(minified)
+            'markdownx/js/markdownx{}.js'.format(minified),
         ]
