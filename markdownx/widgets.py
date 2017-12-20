@@ -95,6 +95,10 @@ class MarkdownxWidget(forms.Textarea):
         return attrs
 
     class Media:
+        css = {
+            'all': ['markdownx/admin/css/markdownx{}.css'.format(minified)]
+        }
+
         js = [
             'markdownx/js/markdownx{}.js'.format(minified),
         ]
